@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-image: url("https://m.media-amazon.com/images/I/81dxjiYexOL._AC_UF1000,1000_QL80_DpWeblab_.jpg");
+    background-size: cover;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #181818;
+    color: #ef6300;
+}
+
+header {
+    background-image:url("https://png.pngtree.com/thumb_back/fh260/background/20201014/pngtree-abstract-waving-particle-technology-background-abstract-gradient-design-template-for-brochures-image_416117.jpg");
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1{
+    color: #26abcc;
+}
+
+a:hover{
+    color: red;
+}
+a:visited{
+    color: purple;
+}
+nav{
+    background-color: #000000;
+    color: #dc6c6c91;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    border: 1px solid #1e2a78;
+    border-radius: 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #621547;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: color 0.3s ease-in-out; /* Smooth transition for link color */
+    font-size: 1rem;
+}
+
+nav ul li a:hover {
+    color: #c60b0b; /* Change text color on hover */
+}
+
+main {
+    padding: 20px;
+}
+
+.graph-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+}
+
+section {
+    margin-bottom: 40px; /* Increased margin for better separation */
+    padding: 20px;
+    border-radius: 10px;
+    background-size: cover;
+    color: #ef6300; /* Text color for better contrast */
+    opacity: 0.8;
+    transition: opacity 0.7s ease-in-out;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1.0);
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 1.0);
+    overflow: hidden;
+    z-index: -1;
+}
+
+section:hover {
+    opacity: 1;
+}
+
+footer {
+    background-color: #cacdcd;
+    color: #252525;
+    padding: 10px;
+    text-align: center;
+}
+
+.back-to-top {
+    display: inline-block;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
